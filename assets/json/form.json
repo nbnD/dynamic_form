@@ -1,0 +1,137 @@
+[
+    {
+        "title": "Title 1",
+        "fields": [
+            {
+                "name": "_lahvoycu0",
+                "span": 8,
+                "text": "Text",
+                "group": "form",
+                "label": "Text",
+             
+                "append": "",
+                "events": {
+                   
+                    "listens": "",
+                    "triggers": ""
+                },
+                "prepend": "",
+                "disabled": false,
+                "isUnique": false,
+                "clearable": false,
+                "fieldType": "TextInput",
+                "maxlength": 100,
+                "isRequired": true,
+                "labelWidth": 100,
+                "defaultValue": "",
+                "showPassword": false,
+                "showWordLimit": false,
+                "addMoreFeature": false,
+                "advancedOptions": true,
+                "isHelpBlockVisible": false,
+                "isPlaceholderVisible": true
+            }
+           
+        ],
+        "canDelete": false
+    },
+    {
+        "title": "Title 2",
+        "fields": [
+            {
+                "name": "_lahvpyt60",
+                "span": 12,
+                "text": "Date-Time",
+                "group": "form",
+                "label": "Date time",
+                "events": {
+                  
+                    "listens": "",
+                    "triggers": ""
+                },
+                "disabled": false,
+                "isUnique": false,
+                "fieldType": "DatetimePicker",
+                "isRequired": false,
+                "labelWidth": 100,
+                "defaultValue": "NOW",
+                "addMoreFeature": false,
+                "isHelpBlockVisible": false,
+                "isPlaceholderVisible": false
+            },
+            {
+                "name": "_lahvq4292",
+                "span": 8,
+                "text": "Switch",
+                "group": "form",
+                "label": "T&C",
+               
+                "events": {
+                   
+                    "listens": "",
+                    "triggers": ""
+                },
+                "disabled": false,
+                "isUnique": false,
+                "fieldType": "SwitchInput",
+                "activeText": "Accept",
+                "labelWidth": 100,
+                "defaultValue": false,
+                "inActiveText": "Decline",
+                "addMoreFeature": false
+            },
+            {
+                "name": "_lahvqyzw3",
+                "span": 8,
+                "text": "Select",
+                "group": "form",
+                "label": "Select",
+                "events": {
+               
+                    "listens": "",
+                    "triggers": ""
+                },
+                "remote": false,
+                "dataUrl": "",
+                "options": [
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 1",
+                        "optionValue": "Option 1"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 2",
+                        "optionValue": "Option 2"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 3",
+                        "optionValue": "Option 3"
+                    }
+                ],
+                "disabled": false,
+                "isUnique": false,
+                "multiple": false,
+                "clearable": false,
+                "fieldType": "SelectList",
+                "isFromUrl": false,
+                "filterable": false,
+                "isRequired": true,
+                "labelField": "label",
+                "labelWidth": 100,
+                "valueField": "value",
+                "isHazardous": false,
+                "defaultValue": {},
+                "addMoreFeature": false,
+                "advancedOptions": true,
+                "isHelpBlockVisible": false,
+                "isPlaceholderVisible": false
+            }
+        ],
+        "canDelete": false
+    }
+]
