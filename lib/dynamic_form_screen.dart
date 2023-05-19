@@ -1,8 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 import 'form_model.dart';
 
@@ -29,7 +27,7 @@ class _DynamicFormState extends State<DynamicForm> {
 
   getFromJson() async {
     String data = await DefaultAssetBundle.of(context)
-        .loadString("assets/json/form.json");
+        .loadString("assets/json/short_form.json");
     final jsonResult = jsonDecode(data);
 
     setState(() {
