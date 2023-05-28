@@ -27,7 +27,7 @@ class _DynamicFormState extends State<DynamicForm> {
 
   getFromJson() async {
     String data = await DefaultAssetBundle.of(context)
-        .loadString("assets/json/short_form.json");
+        .loadString("assets/json/form.json");
     final jsonResult = jsonDecode(data);
 
     setState(() {
@@ -151,7 +151,7 @@ class _DynamicFormState extends State<DynamicForm> {
 
   DateTime selectedDate = DateTime.now();
 
-  Future<Null> _selectDate(BuildContext context) async {
+  Future _selectDate(BuildContext context) async {
     final DateTime? picked = await showDatePicker(
         context: context,
         initialDate: selectedDate,
@@ -182,7 +182,7 @@ class _DynamicFormState extends State<DynamicForm> {
         hintText: items!.first.optionLabel!,
       ),
       borderRadius: BorderRadius.circular(10),
-      // hint: Text(items.first.optionLabel!),
+
 
       // Down Arrow Icon
       icon: const Icon(Icons.keyboard_arrow_down),
